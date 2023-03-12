@@ -68,7 +68,7 @@ sections:
   - title: WordPress
     description: Blog site
     url: eclecticmenagerie.xyz
-    icon: favicon
+    icon: fas fa-wordpress
   - title: Shiori
     description: Bookmark manager
     url: loyal-sturgeon.pikapod.net
