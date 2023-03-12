@@ -50,4 +50,13 @@ sections:
     description: Art Fight account
     url: https://artfight.net/~uchuuken
     icon: favicon
+- name: Game Socials
+  icon: fas fa-gamepad-modern
+  items:
+  - title: Xbox
+    description: uchuuken
+    icon: fas fa-xbox
+  - title: Nintendo Switch
+    description: SW-7271-9883-0027
+    icon: fas fa-game-console-handheld
   
