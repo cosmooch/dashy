@@ -16,25 +16,25 @@ appConfig:
 # Main content - An array of sections, each containing an array of items
 sections:
 - name: Socials
-  icon: fas fa-rocket
+  icon: fas fa-user
   items:
   - title: Instagram
     description: Art account
-    icon: fas fa-instagram
+    icon: far fa-instagram
     url: https://instagram.com/uchuuken
     target: newtab
   - title: Twitter
     description: Twitter account
     url: https://twitter.com/cyberrequiem
-    icon: fas fa-twitter
+    icon: far fa-twitter
   - title: FurAffinity
     description: FurAffinity account
     icon: favicon
     url: https://furaffinity.net/user/uchuuken
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
+  - title: Tumblr
+    description: Tumblr account
+    url: https://uchuuken.tumblr.com
+    icon: far fa-tumblr
   - title: Config Guide
     description: See full list of configuration options
     url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
