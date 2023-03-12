@@ -59,4 +59,17 @@ sections:
   - title: Nintendo Switch
     description: SW-7271-9883-0027
     icon: fas fa-game-console-handheld
+  - title: PlayStation
+    description: uchuuken
+    icon: fas fa-playstation
+- name: Self-Hosted Websites
+  icon: fas fa-globe
+  items:
+  - title: WordPress
+    description: Blog site
+    url: eclecticmenagerie.xyz
+    icon: favicon
+  - title: Shiori
+    description: Bookmark manager
+    url: loyal-sturgeon.pikapod.net
   
