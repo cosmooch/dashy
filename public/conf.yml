@@ -72,4 +72,15 @@ sections:
   - title: Shiori
     description: Bookmark manager
     url: loyal-sturgeon.pikapod.net
+- name: Music
+  icon: fas fa-music
+  items:
+  - title: Spotify
+    description: Spotify account
+  - title: last.fm
+    description: last.fm profile
+    url: https://last.fm/user/uchuuken
+  - title: RateYourMusic
+    description: RYM profile
+    url: https://rateyourmusic.com/~uchuuken
   
