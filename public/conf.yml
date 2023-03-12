@@ -18,10 +18,10 @@ sections:
 - name: Getting Started
   icon: fas fa-rocket
   items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
+  - title: Instagram
+    description: Art account
+    icon: fas fa-instagram
+    url: https://instagram.com/uchuuken
     target: newtab
   - title: GitHub
     description: Source Code, Issues and Pull Requests
