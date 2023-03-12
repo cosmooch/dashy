@@ -11,7 +11,7 @@ pageInfo:
 
 # Optional app settings and configuration
 appConfig:
-  theme: cherry-blossom
+  theme: colorful
 
 # Main content - An array of sections, each containing an array of items
 sections:
@@ -72,6 +72,24 @@ sections:
   - title: Shiori
     description: Bookmark manager
     url: loyal-sturgeon.pikapod.net
+  - title: Carrd
+    description: Personal website
+    url: discorevenge.xyz
+- name: Self-Hosting Services
+  icon: fas fa-globe
+  items:
+  - title: DigitalOcean
+    description: 1-click deployment solutions
+    url: digitalocean.com
+    icon: favicon
+  - title: PikaPods
+    description: Simple, fast 1-click deployment solutions
+    url: pikapods.com
+    icon: favicon
+  - title: Netlify
+    description: Fast website deployment and analytics
+    url: netlifly.com
+    icon: favicon
 - name: Music
   icon: fas fa-music
   items:
@@ -83,4 +101,4 @@ sections:
   - title: RateYourMusic
     description: RYM profile
     url: https://rateyourmusic.com/~uchuuken
-  
+
