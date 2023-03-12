@@ -27,11 +27,10 @@ sections:
     description: Twitter account
     url: https://twitter.com/cyberrequiem
     icon: fas fa-twitter
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
+  - title: FurAffinity
+    description: FurAffinity account
+    icon: favicon
+    url: https://furaffinity.net/user/uchuuken
   - title: Showcase
     description: See how others are using Dashy
     url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
