@@ -90,6 +90,10 @@ sections:
     description: Fast website deployment and analytics
     url: netlifly.com
     icon: favicon
+  - title: YunoHost
+    description: Self-hosting solutoins
+    url: 137.184.209.140
+    icon: favicon
 - name: Music
   icon: fas fa-music
   items:
