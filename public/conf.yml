@@ -23,10 +23,10 @@ sections:
     icon: fas fa-instagram
     url: https://instagram.com/uchuuken
     target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
+  - title: Twitter
+    description: Twitter account
+    url: https://twitter.com/cyberrequiem
+    icon: fas fa-twitter
   - title: Docs
     description: Configuring & Usage Documentation
     provider: Dashy.to
