@@ -81,15 +81,15 @@ sections:
   items:
   - title: DigitalOcean
     description: 1-click deployment solutions
-    url: digitalocean.com
+    url: https://digitalocean.com
     icon: favicon
   - title: PikaPods
     description: Simple, fast 1-click deployment solutions
-    url: pikapods.com
+    url: https://pikapods.com
     icon: favicon
   - title: Netlify
     description: Fast website deployment and analytics
-    url: netlifly.com
+    url: https://netlifly.com
     icon: favicon
   - title: YunoHost
     description: Self-hosting solutoins
