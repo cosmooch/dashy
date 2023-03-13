@@ -34,7 +34,7 @@ sections:
   - title: Tumblr
     description: Tumblr account
     url: https://uchuuken.tumblr.com
-    icon: favicon
+    icon: si-tumblr
   - title: Config Guide
     description: See full list of configuration options
     url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
