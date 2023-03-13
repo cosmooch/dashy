@@ -20,13 +20,13 @@ sections:
   items:
   - title: Instagram
     description: Art account
-    icon: far fa-instagram
+    icon: favicon
     url: https://instagram.com/uchuuken
     target: newtab
   - title: Twitter
     description: Twitter account
     url: https://twitter.com/cyberrequiem
-    icon: far fa-twitter
+    icon: favicon
   - title: FurAffinity
     description: FurAffinity account
     icon: favicon
@@ -34,7 +34,7 @@ sections:
   - title: Tumblr
     description: Tumblr account
     url: https://uchuuken.tumblr.com
-    icon: far fa-tumblr
+    icon: favicon
   - title: Config Guide
     description: See full list of configuration options
     url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
@@ -68,10 +68,11 @@ sections:
   - title: WordPress
     description: Blog site
     url: eclecticmenagerie.xyz
-    icon: fas fa-wordpress
+    icon: favicon
   - title: Shiori
     description: Bookmark manager
     url: loyal-sturgeon.pikapod.net
+    icon: favicon
   - title: Carrd
     description: Personal website
     url: discorevenge.xyz
@@ -99,10 +100,14 @@ sections:
   items:
   - title: Spotify
     description: Spotify account
+    url: https://open.spotify.com/user/galactic.dog?si=65692a1ec0334fe9
+    icon: favicon
   - title: last.fm
     description: last.fm profile
     url: https://last.fm/user/uchuuken
+    icon: favicon
   - title: RateYourMusic
     description: RYM profile
     url: https://rateyourmusic.com/~uchuuken
+    icon: favicon
 
