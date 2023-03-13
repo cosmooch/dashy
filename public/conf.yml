@@ -68,7 +68,7 @@ sections:
   - title: WordPress
     description: Blog site
     url: eclecticmenagerie.xyz
-    icon: favicon
+    icon: si-wordpress
   - title: Shiori
     description: Bookmark manager
     url: loyal-sturgeon.pikapod.net
@@ -86,7 +86,7 @@ sections:
   - title: PikaPods
     description: Simple, fast 1-click deployment solutions
     url: https://pikapods.com
-    icon: favicon
+    icon: si-netlify
   - title: Netlify
     description: Fast website deployment and analytics
     url: https://netlifly.com
@@ -94,7 +94,7 @@ sections:
   - title: YunoHost
     description: Self-hosting solutoins
     url: 137.184.209.140
-    icon: favicon
+    icon: https://yunohost.org/_images/ynh_logo_white_300dpi.png
 - name: Music
   icon: fas fa-music
   items:
