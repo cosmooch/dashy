@@ -86,11 +86,11 @@ sections:
   - title: PikaPods
     description: Simple, fast 1-click deployment solutions
     url: https://pikapods.com
-    icon: si-netlify
+    icon: favicon
   - title: Netlify
     description: Fast website deployment and analytics
     url: https://netlifly.com
-    icon: favicon
+    icon: si-netlify
   - title: YunoHost
     description: Self-hosting solutoins
     url: 137.184.209.140
