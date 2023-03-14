@@ -76,6 +76,10 @@ sections:
   - title: Carrd
     description: Personal website
     url: discorevenge.xyz
+  - title: disco revenge
+    description: Misskey instance
+    url: https://discorevenge.xyz
+    icon: https://raw.githubusercontent.com/misskey-dev/assets/main/icon.png
 - name: Self-Hosting Services
   icon: fas fa-globe
   items:
