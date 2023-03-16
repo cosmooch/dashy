@@ -49,6 +49,10 @@ sections:
     description: Art Fight account
     url: https://artfight.net/~uchuuken
     icon: favicon
+  - title: Artfol
+    description: Artfol account
+    url: https://artfol.co/uchuuken
+    icon: favicon
 - name: Game Socials
   icon: fas fa-gamepad-modern
   items:
@@ -66,15 +70,15 @@ sections:
   items:
   - title: WordPress
     description: Blog site
-    url: eclecticmenagerie.xyz
+    url: https://eclecticmenagerie.xyz
     icon: si-wordpress
   - title: Shiori
     description: Bookmark manager
-    url: loyal-sturgeon.pikapod.net
+    url: https://loyal-sturgeon.pikapod.net
     icon: favicon
   - title: Carrd
     description: Personal website
-    url: discorevenge.xyz
+    url: https://discorevenge.uwu.ai
   - title: disco revenge
     description: Misskey instance
     url: https://discorevenge.xyz
@@ -104,11 +108,11 @@ sections:
   - title: Spotify
     description: Spotify account
     url: https://open.spotify.com/user/galactic.dog?si=65692a1ec0334fe9
-    icon: favicon
+    icon: si-spotify
   - title: last.fm
     description: last.fm profile
     url: https://last.fm/user/uchuuken
-    icon: favicon
+    icon: si-lastdotfm
   - title: RateYourMusic
     description: RYM profile
     url: https://rateyourmusic.com/~uchuuken
