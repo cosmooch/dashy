@@ -79,6 +79,7 @@ sections:
   - title: Carrd
     description: Personal website
     url: https://discorevenge.uwu.ai
+    icon: favicon
   - title: disco revenge
     description: Misskey instance
     url: https://discorevenge.xyz
