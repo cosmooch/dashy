@@ -129,4 +129,8 @@ sections:
     description: RYM profile
     url: https://rateyourmusic.com/~uchuuken
     icon: favicon
+  - title: Discogs
+    description: Discogs collection
+    url: https://www.discogs.com/user/uchuuken
+    icon: favicon
 
