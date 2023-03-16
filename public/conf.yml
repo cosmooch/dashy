@@ -55,13 +55,13 @@ sections:
   items:
   - title: Xbox
     description: uchuuken
-    icon: fas fa-xbox
+    icon: si-xbox
   - title: Nintendo Switch
     description: SW-7271-9883-0027
-    icon: fas fa-game-console-handheld
+    icon: si-nintendoswitch
   - title: PlayStation
     description: uchuuken
-    icon: fas fa-playstation
+    icon: si-playstation
 - name: Self-Hosted Websites
   icon: fas fa-globe
   items:
