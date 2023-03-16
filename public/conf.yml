@@ -65,6 +65,17 @@ sections:
   - title: PlayStation
     description: uchuuken
     icon: si-playstation
+- name: Anime Socials
+  icon: fas fa-book
+  items:
+  - title: Kitsu
+    description: Kitsu account
+    url: https://kitsu.io/users/266818
+    icon: si-kitsu
+  - title: MyFigureCollection
+    description: Anime merch collection
+    url: https://myfigurecollection.net/profile/uchuuken
+    icon: favicon
 - name: Self-Hosted Websites
   icon: fas fa-globe
   items:
