@@ -42,6 +42,9 @@ sections:
     description: Yipnyap account
     url: https://yipnyap.me/uchuuken/
     icon: favicon
+  - title: Telegram
+    description: @uchuuken
+    icon: si-telegram
 - name: Art Socials
   icon: fas fa-palette
   items:
