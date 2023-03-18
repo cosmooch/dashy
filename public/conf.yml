@@ -38,10 +38,10 @@ sections:
   - title: Discord
     description: uchuuken#8794
     icon: si-discord
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
+  - title: Yipnyap
+    description: Yipnyap account
+    url: https://yipnyap.me/uchuuken/
+    icon: favicon
 - name: Art Socials
   icon: fas fa-palette
   items:
