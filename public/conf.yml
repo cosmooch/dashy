@@ -1,140 +1,1235 @@
----
-# Page meta info, like heading, footer text and nav links
-pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
-  navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
 appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  theme: callisto
+  layout: auto
+  iconSize: large
+  language: en
+  customColors:
+    callisto:
+      primary: '#00ccb4'
+      background: '#141b33'
+      background-darker: '#060913'
+pageInfo:
+  title: yo mama
+  description: welcome to your homepage :3c
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+      target: newtab
+    - title: Documentation
+      path: https://dashy.to/docs
+      target: newtab
+  footerText: ''
 sections:
-- name: Socials
-  icon: fas fa-user
-  items:
-  - title: Instagram
-    description: Art account
-    icon: favicon
-    url: https://instagram.com/uchuuken
-    target: newtab
-  - title: Twitter
-    description: Twitter account
-    url: https://twitter.com/cyberrequiem
-    icon: favicon
-  - title: FurAffinity
-    description: FurAffinity account
-    icon: favicon
-    url: https://furaffinity.net/user/uchuuken
-  - title: Tumblr
-    description: Tumblr account
-    url: https://uchuuken.tumblr.com
-    icon: si-tumblr
-  - title: Discord
-    description: uchuuken#8794
-    icon: si-discord
-  - title: Yipnyap
-    description: Yipnyap account
-    url: https://yipnyap.me/uchuuken/
-    icon: favicon
-  - title: Telegram
-    description: @uchuuken
-    icon: si-telegram
-- name: Art Socials
-  icon: fas fa-palette
-  items:
-  - title: Art Fight
-    description: Art Fight account
-    url: https://artfight.net/~uchuuken
-    icon: favicon
-  - title: Artfol
-    description: Artfol account
-    url: https://artfol.co/uchuuken
-    icon: favicon
-- name: Game Socials
-  icon: fas fa-gamepad-modern
-  items:
-  - title: Xbox
-    description: uchuuken
-    icon: si-xbox
-  - title: Nintendo Switch
-    description: SW-7271-9883-0027
-    icon: si-nintendoswitch
-  - title: PlayStation
-    description: uchuuken
-    icon: si-playstation
-- name: Anime Socials
-  icon: fas fa-book
-  items:
-  - title: Kitsu
-    description: Kitsu account
-    url: https://kitsu.io/users/266818
-    icon: si-kitsu
-  - title: MyFigureCollection
-    description: Anime merch collection
-    url: https://myfigurecollection.net/profile/uchuuken
-    icon: favicon
-- name: Self-Hosted Websites
-  icon: fas fa-globe
-  items:
-  - title: WordPress
-    description: Blog site
-    url: https://eclecticmenagerie.xyz
-    icon: si-wordpress
-  - title: Shiori
-    description: Bookmark manager
-    url: https://loyal-sturgeon.pikapod.net
-    icon: favicon
-  - title: Carrd
-    description: Personal website
-    url: https://discorevenge.uwu.ai
-    icon: favicon
-  - title: disco revenge
-    description: Misskey instance
-    url: https://discorevenge.xyz
-    icon: https://raw.githubusercontent.com/misskey-dev/assets/main/icon.png
-- name: Self-Hosting Services
-  icon: fas fa-globe
-  items:
-  - title: DigitalOcean
-    description: 1-click deployment solutions
-    url: https://digitalocean.com
-    icon: favicon
-  - title: PikaPods
-    description: Simple, fast 1-click deployment solutions
-    url: https://pikapods.com
-    icon: favicon
-  - title: Netlify
-    description: Fast website deployment and analytics
-    url: https://netlifly.com
-    icon: si-netlify
-  - title: YunoHost
-    description: Self-hosting solutoins
-    url: 137.184.209.140
-    icon: https://yunohost.org/_images/ynh_logo_white_300dpi.png
-- name: Music
-  icon: fas fa-music
-  items:
-  - title: Spotify
-    description: Spotify account
-    url: https://open.spotify.com/user/galactic.dog?si=65692a1ec0334fe9
-    icon: si-spotify
-  - title: last.fm
-    description: last.fm profile
-    url: https://last.fm/user/uchuuken
-    icon: si-lastdotfm
-  - title: RateYourMusic
-    description: RYM profile
-    url: https://rateyourmusic.com/~uchuuken
-    icon: favicon
-  - title: Discogs
-    description: Discogs collection
-    url: https://www.discogs.com/user/uchuuken
-    icon: favicon
-
-
+  - name: Today
+    icon: far fa-calendar-day
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    widgets:
+      - type: clock
+        options:
+          timeZone: America/Chicago
+          format: en-US
+          hideDate: false
+        id: 0_513_clock
+      - type: rss-feed
+        options:
+          rssUrl: https://soranews24.com/feed/
+          apiKey: 17a6h2nevond7nylnjyeiff8bvmi7ncozm8kfai8
+        id: 1_513_rssfeed
+  - name: Socials
+    icon: fas fa-user
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Instagram Spam Account
+        description: '@coruscate_breeze'
+        icon: favicon
+        url: https://instagram.com/coruscate_breeze
+        target: newtab
+        id: 0_718_instagramspamaccount
+      - title: Discord
+        description: uchuuken
+        icon: favicon
+        url: https://discord.com
+        target: newtab
+        statusCheck: true
+        id: 1_718_discord
+      - title: Telegram
+        description: '@uchuuken'
+        icon: favicon
+        url: https://web.telegram.org
+        target: newtab
+        id: 2_718_telegram
+      - title: Tumblr
+        description: uchuuken
+        icon: favicon
+        url: https://tumblr.com/uchuuken
+        target: newtab
+        id: 3_718_tumblr
+      - title: Plurk
+        description: uchuuken
+        icon: favicon
+        url: https://www.plurk.com/uchuuken
+        target: newtab
+        id: 4_718_plurk
+      - title: Guilded
+        description: Private Discord alternative
+        icon: favicon
+        url: https://www.guilded.gg/
+        target: newtab
+        id: 5_718_guilded
+      - title: Revolt
+        description: Private Discord alternative
+        icon: favicon
+        url: https://revolt.chat/
+        target: newtab
+        id: 6_718_revolt
+      - title: ThoseFewCalculators
+        description: Calkey instance
+        icon: favicon
+        url: https://stop.voring.me/
+        target: newtab
+        id: 7_718_thosefewcalculators
+      - title: WetDry World
+        description: Mastodon instance
+        icon: favicon
+        url: https://wetdry.world
+        target: newtab
+        id: 8_718_wetdryworld
+      - title: Yipnyap
+        description: Furry social media
+        icon: favicon
+        url: https://yipnyap.me
+        target: newtab
+        id: 9_718_yipnyap
+  - name: Art Socials
+    icon: fas fa-palette
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Inkblot Art
+        description: Social media for artists
+        icon: favicon
+        url: https://inkblot.art/profile/leotsukinaga
+        target: newtab
+        id: 0_1045_inkblotart
+      - title: Artistree
+        description: Artist commission site
+        icon: favicon
+        url: https://artistree.io
+        target: newtab
+        id: 1_1045_artistree
+      - title: Art Fight
+        description: Art trade event
+        icon: favicon
+        url: https://artfight.net
+        target: newtab
+        id: 2_1045_artfight
+  - name: Game Socials
+    icon: fas fa-gamepad-modern
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Xbox
+        description: uchuuken
+        icon: si-xbox
+        id: 0_1128_xbox
+      - title: Nintendo Switch
+        description: SW-7271-9883-0027
+        icon: si-nintendoswitch
+        id: 1_1128_nintendoswitch
+      - title: PlayStation
+        description: uchuuken
+        icon: si-playstation
+        id: 2_1128_playstation
+  - name: Anime Socials
+    icon: fas fa-book
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Kitsu
+        icon: si-kitsu
+        url: https://kitsu.io/users/266818
+        target: newtab
+        id: 0_1240_kitsu
+      - title: MyFigureCollection
+        icon: favicon
+        url: https://myfigurecollection.net/profile/uchuuken
+        target: newtab
+        id: 1_1240_myfigurecollection
+  - name: Self-Hosting Services
+    icon: fas fa-globe
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: DigitalOcean
+        icon: favicon
+        url: https://digitalocean.com
+        target: newtab
+        id: 0_2039_digitalocean
+      - title: PikaPods
+        icon: favicon
+        url: https://pikapods.com
+        target: newtab
+        id: 1_2039_pikapods
+      - title: YunoHost
+        icon: favicon
+        url: http://157.230.214.115
+        target: newtab
+        id: 2_2039_yunohost
+      - title: mastohost
+        description: Managed Mastodon hosting
+        icon: favicon
+        url: https://masto.host/
+        target: newtab
+        id: 3_2039_mastohost
+  - name: Self-Hosted Websites
+    icon: fas fa-globe
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Disco Revenge
+        icon: favicon
+        url: https://discorevenge.xyz
+        target: newtab
+        provider: masto.host
+        statusCheck: true
+        id: 0_1924_discorevenge
+      - title: Disco Revenge Pics
+        icon: favicon
+        url: https://pics.discorevenge.xyz
+        target: newtab
+        provider: YunoHost
+        statusCheck: true
+        id: 1_1924_discorevengepics
+      - title: uchu's streams
+        icon: favicon
+        url: https://stream.discorevenge.xyz
+        target: newtab
+        provider: YunoHost
+        statusCheck: true
+        id: 2_1924_uchusstreams
+      - title: Personal Website
+        description: ''
+        icon: favicon
+        url: https://discorevenge.uwu.ai
+        target: newtab
+        statusCheck: true
+        id: 3_1924_personalwebsite
+      - title: Disco Revenge Project Info
+        description: Information about the Disco Revenge Project
+        icon: favicon
+        url: https://info.discorevenge.xyz
+        target: newtab
+        id: 4_1924_discorevengeprojectinfo
+  - name: Music
+    icon: fas fa-music
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Spotify
+        icon: si-spotify
+        url: https://open.spotify.com/user/galactic.dog?si=65692a1ec0334fe9
+        target: newtab
+        id: 0_513_spotify
+      - title: LastFM
+        icon: si-lastdotfm
+        url: https://last.fm/user/uchuuken
+        target: newtab
+        id: 1_513_lastfm
+      - title: RateYourMusic
+        icon: favicon
+        url: https://rateyourmusic.com/~uchuuken
+        target: newtab
+        id: 2_513_rateyourmusic
+      - title: Discogs
+        icon: favicon
+        url: https://www.discogs.com/user/uchuuken
+        target: newtab
+        id: 3_513_discogs
+      - title: DATAFRUITS
+        description: Indie internet radio
+        icon: favicon
+        url: https://datafruits.fm
+        target: newtab
+        id: 4_513_datafruits
+      - title: DI.FM
+        description: EDM internet radio
+        icon: favicon
+        url: https://di.fm
+        target: newtab
+        id: 5_513_difm
+      - title: MusicBrainz
+        description: Music encyclopedia
+        icon: favicon
+        url: https://musicbrainz.org/
+        target: newtab
+        id: 6_513_musicbrainz
+      - title: Traxsource
+        description: Music tracks shop
+        icon: favicon
+        url: https://www.traxsource.com/
+        target: newtab
+        id: 7_513_traxsource
+      - title: Beatport
+        description: Just like Traxsource
+        icon: favicon
+        url: https://www.beatport.com/
+        target: newtab
+        id: 8_513_beatport
+      - title: sona fm
+        description: Ad-free radio
+        icon: favicon
+        url: https://somafm.com/
+        target: newtab
+        id: 9_513_sonafm
+      - title: Polaroid Radio
+        description: Free internet radio from Polaroid
+        icon: favicon
+        url: https://radio.polaroid.com/
+        target: newtab
+        id: 10_513_polaroidradio
+      - title: Radio Garden
+        description: Live radio from around the world
+        icon: favicon
+        url: http://radio.garden/
+        target: newtab
+        id: 11_513_radiogarden
+      - title: Radiooooo
+        description: Radio time machine
+        icon: favicon
+        url: https://radiooooo.com/
+        target: newtab
+        id: 12_513_radiooooo
+      - title: NTS Radio
+        description: Internet radio station
+        icon: favicon
+        url: https://www.nts.live/
+        target: newtab
+        id: 13_513_ntsradio
+      - title: Audacy
+        description: Local/national radio stations
+        icon: favicon
+        url: https://www.audacy.com/
+        target: newtab
+        id: 14_513_audacy
+      - title: Xerf Xpec
+        description: Obscure music channel
+        icon: favicon
+        url: https://odysee.com/@XerfXpec:b?view=content
+        target: newtab
+        id: 15_513_xerfxpec
+  - name: Videos
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: YouTube
+        icon: favicon
+        url: https://youtube.com
+        target: newtab
+        id: 0_618_youtube
+  - name: Utilities
+    icon: fas fa-wrench
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: cobalt
+        description: Video downloader
+        icon: favicon
+        url: https://co.wukko.me
+        target: newtab
+        id: 0_956_cobalt
+      - title: APK Downloader
+        icon: favicon
+        url: https://apps.evozi.com/apk-downloader/
+        target: newtab
+        id: 1_956_apkdownloader
+      - title: MEGA
+        description: Cloud storage
+        icon: favicon
+        url: https://mega.nz
+        target: newtab
+        id: 2_956_mega
+      - title: HeckerNoHecking
+        description: Skillshare class downloader
+        icon: si-notebook
+        url: https://hecker.likesyou.org/?i=1
+        target: newtab
+        id: 3_956_heckernohecking
+      - title: Reverse Phone Lookup
+        description: Self explanatory
+        icon: favicon
+        url: https://www.numlookup.com/
+        target: newtab
+        id: 4_956_reversephonelookup
+      - title: Can You Run It
+        description: Check to see whether your PC can run a game
+        icon: favicon
+        url: https://www.systemrequirementslab.com/cyri
+        target: newtab
+        id: 5_956_canyourunit
+      - title: Awesome Privacy
+        description: >-
+          List of free, open source and privacy respecting services and
+          alternatives to privative services
+        icon: favicon
+        url: https://github.com/pluja/awesome-privacy
+        target: newtab
+        id: 6_956_awesomeprivacy
+      - title: nitter
+        description: Private Twitter frontend
+        icon: favicon
+        url: https://nitter.net/
+        target: newtab
+        id: 7_956_nitter
+      - title: Templatemaker
+        description: >-
+          Create and download custom sized papercraft and packaging templates
+          for free
+        icon: favicon
+        url: https://www.templatemaker.nl/en/
+        target: newtab
+        id: 8_956_templatemaker
+      - title: Markdeep
+        description: >-
+          A technology for writing plain text documents that will look good in
+          any web browser, whether local or remote
+        icon: favicon
+        url: https://casual-effects.com/markdeep
+        target: newtab
+        id: 9_956_markdeep
+      - title: Codepen
+        description: Check code here
+        icon: favicon
+        url: https://codepen.io/pen/
+        target: newtab
+        id: 10_956_codepen
+  - name: Books
+    icon: fas fa-book
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Archie Sonic
+        icon: favicon
+        url: https://readcomiconline.li/Comic/Sonic-The-Hedgehog/Issue-1?id=20059#1
+        target: newtab
+        id: 0_510_archiesonic
+      - title: Anna's Archive
+        description: Free book downloads
+        icon: favicon
+        url: https://annas-archive.org/
+        target: newtab
+        id: 1_510_annasarchive
+      - title: Libib
+        description: Personal library manager
+        icon: favicon
+        url: https://www.libib.com/
+        target: newtab
+        id: 2_510_libib
+      - title: The Story Graph
+        description: Book recommendations, tracking, etc.; GoodReads alternative
+        icon: favicon
+        url: https://thestorygraph.com/
+        target: newtab
+        id: 3_510_thestorygraph
+  - name: TV/Movies
+    icon: fas fa-tv
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: mov3.co
+        description: Japanese television
+        icon: fas fa-tv
+        url: http://mov3.co/en/
+        target: newtab
+        id: 0_844_movco
+      - title: 9anime
+        description: Watch anime for free
+        icon: favicon
+        url: https://9anime.to
+        target: newtab
+        id: 1_844_anime
+      - title: Movies7
+        description: Watch movies for free
+        icon: favicon
+        url: https://movies7.to
+        target: newtab
+        id: 2_844_movies
+      - title: IPTV
+        description: >-
+          Collection of publicly available IPTV (Internet Protocol television)
+          channels from all over the world
+        icon: favicon
+        url: https://github.com/iptv-org/iptv
+        target: newtab
+        id: 3_844_iptv
+      - title: MUBI
+        description: International movies
+        icon: favicon
+        url: https://mubi.com
+        target: newtab
+        id: 4_844_mubi
+  - name: Video Games
+    icon: fas fa-controller
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: All Nintendo 3DS Games
+        description: Nintendo 3DS ROMS
+        icon: favicon
+        url: https://archive.org/download/nintendo-3ds-complete-collection
+        target: newtab
+        id: 0_1028_allnintendodsgames
+      - title: FitGirl Repacks
+        description: Compressed game downloads
+        icon: favicon
+        url: https://fitgirl-repacks.site/
+        target: newtab
+        id: 1_1028_fitgirlrepacks
+      - title: STEAMUNLOCKED
+        description: Free Steam Games
+        icon: favicon
+        url: https://steamunlocked.net/
+        target: newtab
+        id: 2_1028_steamunlocked
+      - title: itch.io
+        description: Indie games
+        icon: favicon
+        url: https://itch.io
+        target: newtab
+        id: 3_1028_itchio
+  - name: Research
+    icon: fas fa-newspaper
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Science
+        description: Research articles
+        icon: favicon
+        url: https://www.science.org/
+        target: newtab
+        id: 0_813_science
+  - name: Archives
+    icon: fas fa-magnifying-glass
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: NU:Carnival Archive
+        icon: favicon
+        url: >-
+          https://app.skiff.com/docs/f912b35b-b5b2-4753-a447-341756bd60b2#SDe2r1i9CdbSrpIqGlkp8wb5adk4rN7PMKCs+8c+3jE=
+        target: newtab
+        id: 0_821_nucarnivalarchive
+      - title: NU:Carnival Backup Archive
+        icon: favicon
+        url: >-
+          https://wild-pedestrian-7f3.notion.site/NC-Archive-v2-7334e1c3634c44eba634209007cce1af
+        target: newtab
+        id: 1_821_nucarnivalbackuparchive
+  - name: Apps
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: picoCAD
+        description: Low-poly model maker
+        icon: favicon
+        url: https://johanpeitz.itch.io/picocad
+        target: newtab
+        id: 0_404_picocad
+      - title: Goxel
+        description: Open-source voxel program
+        icon: favicon
+        url: https://goxel.xyz/
+        target: newtab
+        id: 1_404_goxel
+      - title: MagicaVoxel
+        description: >-
+          A free lightweight GPU-based voxel art editor and interactive path
+          tracing renderer
+        icon: favicon
+        url: https://ephtracy.github.io/index.html?page=mv_main#ss-carousel_ss
+        target: newtab
+        id: 2_404_magicavoxel
+      - title: Pepakura Designer
+        description: 3D model unfolder -> paper model
+        icon: favicon
+        url: https://tamasoft.co.jp/pepakura-en/index.html
+        target: newtab
+        id: 3_404_pepakuradesigner
+      - title: Ultimate Papercraft 3D
+        description: A papercraft designing software program
+        icon: favicon
+        url: https://www.papercraft3d.com/upc/index.aspx
+        target: newtab
+        id: 4_404_ultimatepapercraftd
+      - title: LocalSend
+        description: Local file transfer between devices
+        icon: favicon
+        url: https://localsend.org/#/download
+        target: newtab
+        id: 5_404_localsend
+  - name: Food
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Nurture Life
+        description: Kids meals
+        icon: favicon
+        url: https://www.nurturelife.com/
+        target: newtab
+        id: 0_392_nurturelife
+      - title: Dinnerly
+        description: Meal subscription
+        icon: favicon
+        url: https://dinnerly.com/menu
+        target: newtab
+        id: 1_392_dinnerly
+  - name: Self-Hosting Resources
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Heroku
+        description: Cloud application platform
+        icon: favicon
+        url: https://www.heroku.com/
+        target: newtab
+        id: 0_2158_heroku
+      - title: Run Your Own Social
+        description: Website about hosting for your friends
+        icon: favicon
+        url: https://runyourown.social/
+        target: newtab
+        id: 1_2158_runyourownsocial
+      - title: Awesome Fediadmin
+        description: >-
+          A collection of awesome resources for running your own federated
+          social media website
+        icon: favicon
+        url: https://codeberg.org/nev/awesome-fediadmin
+        target: newtab
+        id: 2_2158_awesomefediadmin
+      - title: Awesome Self-Hosted
+        description: >-
+          This is a list of Free Software network services and web applications
+          which can be hosted on your own server(s)
+        icon: favicon
+        url: https://github.com/awesome-selfhosted/awesome-selfhosted
+        target: newtab
+        id: 3_2158_awesomeselfhosted
+      - title: Awesome Sysadmin
+        description: >-
+          A curated list of amazingly awesome Free and Open-Source sysadmin
+          resources
+        icon: favicon
+        url: https://github.com/awesome-foss/awesome-sysadmin
+        target: newtab
+        id: 4_2158_awesomesysadmin
+      - title: HelioHost
+        description: Community-powered free hosting for everyone
+        icon: favicon
+        url: https://heliohost.org/
+        target: newtab
+        id: 5_2158_heliohost
+      - title: Netlify
+        description: Develop and deploy websites and apps in record time
+        icon: favicon
+        url: https://netlify.com
+        target: newtab
+        id: 6_2158_netlify
+      - title: Oliphant Blocklists
+        description: List of curated domain blocklists for fedadmins
+        icon: favicon
+        url: >-
+          https://codeberg.org/oliphant/blocklists/src/branch/main/blocklists/mastodon
+        target: newtab
+        id: 7_2158_oliphantblocklists
+      - title: Open-Source iOS Apps
+        description: A collaborative list of open-source iOS, iPadOS, watchOS and tvOS apps
+        icon: favicon
+        url: https://github.com/dkhamsing/open-source-ios-apps
+        target: newtab
+        id: 8_2158_opensourceiosapps
+  - name: Zines
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: itch.io Comics
+        description: Webcomics on itch.io
+        icon: favicon
+        url: https://itch.io/comics
+        target: newtab
+        id: 0_521_itchiocomics
+      - title: Broken Pencil
+        description: News dedicated to zines and zine culture
+        icon: favicon
+        url: https://brokenpencil.com/
+        target: newtab
+        id: 1_521_brokenpencil
+      - title: The Small Science Collective
+        description: Small zines about science
+        icon: favicon
+        url: https://asyang.wixsite.com/small-science
+        target: newtab
+        id: 2_521_thesmallsciencecollective
+      - title: Spectrolite
+        description: Create zines on this Mac app
+        icon: favicon
+        url: https://spectrolite.app/
+        target: newtab
+        id: 3_521_spectrolite
+      - title: QZAP
+        description: Queer zine archive
+        icon: favicon
+        url: https://archive.qzap.org/
+        target: newtab
+        id: 4_521_qzap
+  - name: Carrd Resources
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Pomie Graphics Archive
+        description: Carrd graphics archive
+        icon: favicon
+        url: https://gifs.crd.co/
+        target: newtab
+        id: 0_1479_pomiegraphicsarchive
+      - title: gifs4carrd
+        description: Carrd gifs
+        icon: favicon
+        url: https://gifs4crds.carrd.co/
+        target: newtab
+        id: 1_1479_gifscarrd
+      - title: Blinkie Maker
+        description: Website for creating blinkies
+        icon: favicon
+        url: https://blinkies.cafe/
+        target: newtab
+        id: 2_1479_blinkiemaker
+      - title: Geocities Gifs
+        description: Geocities GIFS on Tenor
+        icon: favicon
+        url: https://tenor.com/search/geocities-gifs-gifs
+        target: newtab
+        id: 3_1479_geocitiesgifs
+      - title: Free Cute Blinkies
+        description: Free blinkies for webpages
+        icon: favicon
+        url: >-
+          https://web.archive.org/web/20121102033118/http://www.free-blinkies.com/blinkies/Cute/
+        target: newtab
+        id: 4_1479_freecuteblinkies
+      - title: Button Wall
+        description: Collection of web buttons
+        icon: favicon
+        url: https://buttonwall.neocities.org/
+        target: newtab
+        id: 5_1479_buttonwall
+      - title: Stickers!!
+        description: Scanned stickers
+        icon: favicon
+        url: https://stickerclub2005.tumblr.com/
+        target: newtab
+        id: 6_1479_stickers
+      - title: GifCities
+        description: GIFS taken from Geocities
+        icon: favicon
+        url: https://gifcities.org/
+        target: newtab
+        id: 7_1479_gifcities
+      - title: Web Buttons
+        description: Archive of web buttons
+        icon: favicon
+        url: https://sh2.us/buttons/
+        target: newtab
+        id: 8_1479_webbuttons
+      - title: BLINKIES
+        description: 2000s blinkies
+        icon: favicon
+        url: https://y2k.neocities.org/blinkies
+        target: newtab
+        id: 9_1479_blinkies
+      - title: 88x31
+        description: 88x31 Geocities buttons
+        icon: favicon
+        url: https://neonaut.neocities.org/cyber/88x31
+        target: newtab
+        id: 10_1479_x
+      - title: 88x31 Button maker
+        description: Self-explanatory
+        icon: favicon
+        url: https://hekate2.github.io/buttonmaker/
+        target: newtab
+        id: 11_1479_xbuttonmaker
+      - title: A.N. Lucas's 88x31 Button Collection
+        description: 88x31 buttons from the 90s and 00s
+        icon: favicon
+        url: https://anlucas.neocities.org/88x31Buttons
+        target: newtab
+        id: 12_1479_anlucassxbuttoncollection
+      - title: Internet Button Archive
+        description: 90s web buttons
+        icon: favicon
+        url: https://buttoncollection.neocities.org/
+        target: newtab
+        id: 13_1479_internetbuttonarchive
+      - title: Cool Text
+        description: Free graphics generator
+        icon: favicon
+        url: https://cooltext.com/
+        target: newtab
+        id: 14_1479_cooltext
+      - title: GlowTxt
+        description: Create glowing text
+        icon: favicon
+        url: https://glowtxt.com/
+        target: newtab
+        id: 15_1479_glowtxt
+      - title: TEXTANIM
+        description: Animated text generator
+        icon: favicon
+        url: https://textanim.com/
+        target: newtab
+        id: 16_1479_textanim
+      - title: Favicon Masterpost
+        description: Lots of favicons to use!
+        icon: favicon
+        url: https://sugaa.tumblr.com/post/70120611883/favicon-masterpost
+        target: newtab
+        id: 17_1479_faviconmasterpost
+      - title: Carrd Effects
+        description: Website is inactive as of now
+        icon: favicon
+        url: https://callie.crd.co/#tut
+        target: newtab
+        id: 18_1479_carrdeffects
+      - title: Sadgrl Tiled Backgrounds
+        description: Tiled backgrounds curated by sadgrl
+        icon: favicon
+        url: https://sadgrl.online/webmastery/downloads/tiledbgs
+        target: newtab
+        id: 19_1479_sadgrltiledbackgrounds
+      - title: awhe's Links
+        description: Links curated by awhe
+        icon: favicon
+        url: https://awhe.neocities.org/links
+        target: newtab
+        id: 20_1479_awheslinks
+      - title: Tiled Backgrounds
+        icon: favicon
+        url: >-
+          https://tenshiikisu.tumblr.com/post/79015021080/heres-my-collection-of-pixel-backgrounds-tile
+        target: newtab
+        id: 21_1479_tiledbackgrounds
+      - title: More Tiled Backgrounds
+        icon: favicon
+        url: https://ohpixels.tumblr.com/post/78314203372/tiled-pixel-backgrounds
+        target: newtab
+        id: 22_1479_moretiledbackgrounds
+      - title: Even More Tiled Backgrounds
+        icon: favicon
+        url: >-
+          https://pixel-background-blog.tumblr.com/post/58189718819/absolutely-100-pink-tile-backgrounds-under-the
+        target: newtab
+        id: 23_1479_evenmoretiledbackgrounds
+  - name: Travel
+    icon: fas fa-map
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Google Maps
+        description: Navigation app
+        icon: favicon
+        url: https://maps.google.com
+        target: newtab
+        id: 0_622_googlemaps
+      - title: Wanderlog
+        description: Travel itinerary maker
+        icon: favicon
+        url: https://wanderlog.com
+        target: newtab
+        id: 1_622_wanderlog
+  - name: Fun Tools
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Beepbox
+        description: Simple music maker
+        icon: favicon
+        url: https://beepbox.co
+        target: newtab
+        id: 0_858_beepbox
+      - title: Twitter Bio Generator
+        description: Generate Twitter bios
+        icon: favicon
+        url: https://www.twitterbio.io/
+        target: newtab
+        id: 1_858_twitterbiogenerator
+  - name: Photo Editing
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Background Remover
+        description: Removes background from photos
+        icon: favicon
+        url: https://picwish.com/upload
+        target: newtab
+        id: 0_1262_backgroundremover
+      - title: Photopea
+        description: Free Photoshop alternative
+        icon: favicon
+        url: https://photopea.com
+        target: newtab
+        id: 1_1262_photopea
+  - name: Cloud Storage
+    icon: fas fa-cloud
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: MEGA
+        description: Popular cloud storage
+        icon: favicon
+        url: https://mega.nz
+        target: newtab
+        id: 0_1260_mega
+      - title: iCloud
+        description: Apple's cloud service
+        icon: favicon
+        url: https://icloud.com
+        target: newtab
+        id: 1_1260_icloud
+      - title: ente
+        description: 100% private photo storage
+        icon: favicon
+        url: https://ente.io
+        target: newtab
+        id: 2_1260_ente
+  - name: Stories/Web Comics
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: '17776'
+        description: What football will look like in the future
+        icon: favicon
+        url: https://www.sbnation.com/a/17776-football/
+        target: newtab
+        id: 0_1716_
+  - name: Education
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items: []
+  - name: Art Resources
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items: []
+  - name: Language Learning
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items: []
+  - name: VPN/DNS
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items: []
+  - name: Website Builders
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: Carrd
+        description: Simple website builder
+        icon: favicon
+        url: https://carrd.co
+        target: newtab
+        id: 0_1581_carrd
+      - title: Neocities
+        description: HTML Website Builder
+        icon: favicon
+        url: https://neocities.org
+        target: newtab
+        id: 1_1581_neocities
+      - title: WordPress
+        description: Website builder
+        icon: favicon
+        url: https://wordpress.org/
+        target: newtab
+        id: 2_1581_wordpress
+      - title: Glitch
+        description: Website builder for everyone
+        icon: favicon
+        url: https://glitch.com
+        target: newtab
+        id: 3_1581_glitch
+  - name: Awesome Github
+    icon: si-github
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: The Book of Secret Knowledge
+        description: >-
+          A collection of inspiring lists, manuals, cheatsheets, blogs, hacks,
+          one-liners, cli/web tools, and more
+        icon: favicon
+        url: https://github.com/trimstray/the-book-of-secret-knowledge
+        target: newtab
+        id: 0_1364_thebookofsecretknowledge
+      - title: Awesome Go
+        description: Go resources
+        icon: favicon
+        url: https://github.com/avelino/awesome-go#email
+        target: newtab
+        id: 1_1364_awesomego
+      - title: Awesome Windows
+        description: An awesome & curated list of best applications and tools for Windows
+        icon: favicon
+        url: https://github.com/Awesome-Windows/Awesome
+        target: newtab
+        id: 2_1364_awesomewindows
+      - title: Awesome Music
+        description: >-
+          A categorized collection of awesome music libraries, tools, frameworks
+          and software
+        icon: favicon
+        url: https://github.com/noteflakes/awesome-music
+        target: newtab
+        id: 3_1364_awesomemusic
+      - title: Awesome Music Production
+        description: >-
+          A curated list of software, hardware, and other resources to create
+          music
+        icon: favicon
+        url: https://github.com/ad-si/awesome-music-production
+        target: newtab
+        id: 4_1364_awesomemusicproduction
+      - title: Awesome Web Animation
+        description: >-
+          This list contains the most useful tools and data for creating web
+          animations
+        icon: favicon
+        url: https://github.com/sergey-pimenov/awesome-web-animation
+        target: newtab
+        id: 5_1364_awesomewebanimation
+      - title: Awesome Transit
+        description: ommunity list of transit APIs, apps, datasets, research, and software
+        icon: favicon
+        url: https://github.com/CUTR-at-USF/awesome-transit
+        target: newtab
+        id: 6_1364_awesometransit
+      - title: Awesome Web Desktops
+        description: >-
+          The web's biggest curated directory of apps, portfolios and
+          experiments that mimic the appearance and functionality of desktop
+          operating systems
+        icon: favicon
+        url: https://github.com/syxanash/awesome-web-desktops
+        target: newtab
+        id: 7_1364_awesomewebdesktops
+      - title: Awesome ChatGPT
+        description: Curated ChatGPT resources
+        icon: favicon
+        url: https://github.com/sindresorhus/awesome-chatgpt
+        target: newtab
+        id: 8_1364_awesomechatgpt
+      - title: Awesome Creative Coding
+        description: >-
+          Carefully curated list of awesome creative coding resources primarily
+          for beginners/intermediates
+        icon: favicon
+        url: https://github.com/terkelg/awesome-creative-coding
+        target: newtab
+        id: 9_1364_awesomecreativecoding
+      - title: Lists
+        description: List of useful, silly and awesome lists curated on GitHub
+        icon: favicon
+        url: https://github.com/jnv/lists
+        target: newtab
+        id: 10_1364_lists
+      - title: Awesome Free Software
+        description: >-
+          Software in this list is distributed under terms that allow anyone to
+          use, modify, and share the software for any purpose
+        icon: favicon
+        url: https://github.com/johnjago/awesome-free-software
+        target: newtab
+        id: 11_1364_awesomefreesoftware
+      - title: Awesome Open Source Apps
+        description: >-
+          An awesome curated list of open source crafted web & mobile
+          applications 
+        icon: favicon
+        url: https://github.com/unicodeveloper/awesome-opensource-apps
+        target: newtab
+        id: 12_1364_awesomeopensourceapps
+      - title: Checklist Checklist
+        description: A list of checklists
+        icon: favicon
+        url: https://github.com/huyingjie/Checklist-Checklist
+        target: newtab
+        id: 13_1364_checklistchecklist
+      - title: Awesome Repos
+        description: A curated list of GitHub Repositories full of FREE Resources
+        icon: favicon
+        url: https://github.com/pawelborkar/awesome-repos
+        target: newtab
+        id: 14_1364_awesomerepos
+      - title: Personal Security Checklist
+        icon: favicon
+        url: https://github.com/Lissy93/personal-security-checklist
+        target: newtab
+        id: 15_1364_personalsecuritychecklist
+      - title: Mind-Expanding Books
+        icon: favicon
+        url: https://github.com/hackerkid/Mind-Expanding-Books
+        target: newtab
+        id: 16_1364_mindexpandingbooks
+      - title: Deploy Your Own Saas
+        icon: favicon
+        url: https://github.com/Atarity/deploy-your-own-saas
+        target: newtab
+        id: 17_1364_deployyourownsaas
+      - title: Alternative Frontends
+        icon: favicon
+        url: https://github.com/mendel5/alternative-front-ends
+        target: newtab
+        id: 18_1364_alternativefrontends
+      - title: Awesome CSS
+        icon: favicon
+        url: https://github.com/awesome-css-group/awesome-css
+        target: newtab
+        id: 19_1364_awesomecss
+      - title: Awesome Productivity
+        icon: favicon
+        url: https://github.com/jyguyomarch/awesome-productivity
+        target: newtab
+        id: 20_1364_awesomeproductivity
+      - title: Awesome No-Login Web Apps
+        icon: favicon
+        url: https://github.com/aviaryan/awesome-no-login-web-app
+        target: newtab
+        id: 21_1364_awesomenologinwebapps
+      - title: Awesome Mental Health
+        icon: favicon
+        url: https://github.com/dreamingechoes/awesome-mental-health
+        target: newtab
+        id: 22_1364_awesomementalhealth
